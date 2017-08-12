@@ -24,4 +24,9 @@ public class MustacheUtil {
 
     }
 
+    /** Generates a href string that goes to the destination and shows the text */
+    public static String generateHref(String destination, String text) {
+        return "<a href='"+ destination + "'>" + text + "</a>";
+    }
+
 }
